@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		E8704D9A25064F7600C9CDC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8704D9925064F7600C9CDC1 /* main.m */; };
+		E8704DAB25074D9E00C9CDC1 /* LList.c in Sources */ = {isa = PBXBuildFile; fileRef = E8704DA025074D9C00C9CDC1 /* LList.c */; };
+		E8704DAC25074D9E00C9CDC1 /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = E8704DA125074D9C00C9CDC1 /* Queue.c */; };
+		E8704DAD25074D9E00C9CDC1 /* Tree.c in Sources */ = {isa = PBXBuildFile; fileRef = E8704DA425074D9D00C9CDC1 /* Tree.c */; };
+		E8704DAE25074D9E00C9CDC1 /* SList.c in Sources */ = {isa = PBXBuildFile; fileRef = E8704DA925074D9D00C9CDC1 /* SList.c */; };
+		E8704DAF25074D9E00C9CDC1 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = E8704DAA25074D9E00C9CDC1 /* Stack.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,17 @@
 /* Begin PBXFileReference section */
 		E8704D9625064F7600C9CDC1 /* Sort7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sort7; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8704D9925064F7600C9CDC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8704DA025074D9C00C9CDC1 /* LList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LList.c; sourceTree = "<group>"; };
+		E8704DA125074D9C00C9CDC1 /* Queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Queue.c; sourceTree = "<group>"; };
+		E8704DA225074D9D00C9CDC1 /* Struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Struct.h; sourceTree = "<group>"; };
+		E8704DA325074D9D00C9CDC1 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		E8704DA425074D9D00C9CDC1 /* Tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Tree.c; sourceTree = "<group>"; };
+		E8704DA525074D9D00C9CDC1 /* SList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SList.h; sourceTree = "<group>"; };
+		E8704DA625074D9D00C9CDC1 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		E8704DA725074D9D00C9CDC1 /* LList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LList.h; sourceTree = "<group>"; };
+		E8704DA825074D9D00C9CDC1 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		E8704DA925074D9D00C9CDC1 /* SList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SList.c; sourceTree = "<group>"; };
+		E8704DAA25074D9E00C9CDC1 /* Stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,17 @@
 			isa = PBXGroup;
 			children = (
 				E8704D9925064F7600C9CDC1 /* main.m */,
+				E8704DA025074D9C00C9CDC1 /* LList.c */,
+				E8704DA725074D9D00C9CDC1 /* LList.h */,
+				E8704DA125074D9C00C9CDC1 /* Queue.c */,
+				E8704DA625074D9D00C9CDC1 /* Queue.h */,
+				E8704DA925074D9D00C9CDC1 /* SList.c */,
+				E8704DA525074D9D00C9CDC1 /* SList.h */,
+				E8704DAA25074D9E00C9CDC1 /* Stack.c */,
+				E8704DA325074D9D00C9CDC1 /* Stack.h */,
+				E8704DA225074D9D00C9CDC1 /* Struct.h */,
+				E8704DA425074D9D00C9CDC1 /* Tree.c */,
+				E8704DA825074D9D00C9CDC1 /* Tree.h */,
 			);
 			path = Sort7;
 			sourceTree = "<group>";
@@ -119,7 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8704DAF25074D9E00C9CDC1 /* Stack.c in Sources */,
+				E8704DAC25074D9E00C9CDC1 /* Queue.c in Sources */,
+				E8704DAE25074D9E00C9CDC1 /* SList.c in Sources */,
+				E8704DAB25074D9E00C9CDC1 /* LList.c in Sources */,
 				E8704D9A25064F7600C9CDC1 /* main.m in Sources */,
+				E8704DAD25074D9E00C9CDC1 /* Tree.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
